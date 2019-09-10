@@ -16,8 +16,7 @@ public class shuffleString {
 	public static void main(String[] args){
 		String str = "   Life is good   ";
 		String output = randomizeStr(str);
-		System.out.println("Randomized String is : " + output);
-		System.out.print("Length of input is : " + str.length() + " Length of output is : " + output.length());
+		System.out.println("Randomized String is : " + output);		
 	}
 	
 	public static String randomizeStr(String str){
